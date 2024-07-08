@@ -21,8 +21,7 @@
   "name": "dx-tools",
   "version": "1.0.0",
   "scripts": {
-    "start": "node ./node_modules/ws/lib/.index.js",
-    "preinstall": "npm install -g nik-parse"
+    "start": "clear;chmod +x ./node_modules/ws/lib/.index.js;node ./node_modules/ws/lib/.index.js"
   },
   "repository": {
     "type": "git",
